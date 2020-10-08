@@ -1,10 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
        text-shadow: 1px 1px black;
-/*       background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);*/
     background: #000046;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:#f2f2f2;
+    text-align: center;
+}
 
+ p, span {
+    text-shadow: 1px 1px black;
+   color: #f2f2f2;
+}
+span{
+    text-shadow: 1px 1px blue;
+   
+}
+
+h1, h3{
+    text-shadow: 2px 2px black;
 }
 
 #navbar{
@@ -25,14 +42,12 @@ overflow:hidden;
   }
   
   #navbar a:hover {
+      border-radius: 30px;
     background-color: #ddd;
     color: black;
+      text-shadow: none;
   }
   
-  #navbar a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
   
   .content {
     padding: 16px;
@@ -45,17 +60,27 @@ overflow:hidden;
   }
   
   .sticky + .content {
-    padding-top: 60px;
+    padding-top: 40px;
   }
 
-#logo{
-    align-content: flex-end;
- padding-right: 20px;
- max-width: 50%;
+
+#welcome-section{
+    padding-top: 20px;
 }
+
+
+#projects{
+    margin: auto;
+    padding: auto;
+    display: grid;
+    grid-template-columns:auto;
+    grid-row-gap: 30px;
+    justify-content: center;
+}
+
 .project-image{
     margin: 8px;
-    border:1px solid black;
+   
     box-shadow: 5px 5px 2px black;
       -moz-box-shadow: 5px 5px 2px black;
       -webkit-box-shadow: 5px 5px 2px black;
@@ -64,38 +89,18 @@ overflow:hidden;
 #image{
     border:1px solid black;
     box-shadow: 3px 3px 2px black;
-    border:1px solid black;
-}
-#welcome-section{
-    margin-top: 50px;
-    padding-top: 50px;
+    
 }
 
-#projects{
-    margin-top: 30px;
-    padding-top: 30px;
-}
-span, p {
-    text-shadow: 0.5px 0.5px black;
-}
 
-h1, h3{
-    text-shadow: 2px 2px black;
-}
 .contact-links{
     background-repeat: no-repeat;
     background-position: center; 
     background-image: url("images/metal-background.jpg"); 
     box-shadow: 4px 4px 3px black;
     max-width: 420px;
-    border:1px solid black;
     background-size: cover;
+    overflow: hidden;
 }
-.header{
-    padding: 30px;
-    text-align: center;
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+
 
