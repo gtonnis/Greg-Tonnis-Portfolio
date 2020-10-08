@@ -1,3 +1,3 @@
 # Greg-Tonnis-Portfolio
 My personal web developer Portfolio Website
-![](grannysscrnshot.png)
+![](portfolio-1.png)
