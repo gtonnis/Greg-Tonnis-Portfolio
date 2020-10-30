@@ -6,28 +6,25 @@
                 <meta name="description" content="Portfolio web page for Web Developer Greg Tonnis">
                 <meta name="keywords" content="Web Developer, Software Developer, javascript, html, css">
                 <meta name="author" content="Greg Tonnis">
-                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+               
                      <link rel="stylesheet" href="style.css">   
                      <title>gregtonnis.dev</title>
                 </head>
         <body>
-         
-    <nav id="navbar">
         
-    <div class="topnav" id="navbar">
-    <a class="nav-link" href="#welcome-section">Home</a>
-     <a class="nav-link" href="#projects">Projects</a>
-      <a class="nav-link" href="#contact">Contact</a>
-     
+    <div class="navbar">
+    <a href="#home">Home</a>
+     <a  href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </div>
-    </nav>
+  
          
-        <!--    Welcome section-->
-            <section id="welcome-section" class="welcome-section">
+        <!--  Home -->
+            <section id="home">
               <div class="content">
 
+                <h1>Hi, I'm Greg.</h1>
 
-           <br><br><br> <h1>Hi, I'm Greg.</h1>
                  <p>A Web Developer, located in Cincinnati, Ohio.</p>
                  <p>I have worked in management for various companies in different roles, my real passion is Web Development, and Programming.</p> 
                  <p>I have learned HTML, CSS, and JavaScript through Free Code Camp.</p>
@@ -38,122 +35,82 @@
                       
 
         <!--         Project section        -->
-                <section id="projects" class="projects-section">
+                <section id="projects">
                  
-      <br><br><br><h3 class="projects-section-header mb-3"><u>Projects</u></h3> 
-          <div class="row">
+      <h3 class="projects-section-header"><u>Projects</u></h3> 
+          <div class="projects-section">
 
-            <!-- Grid column -->
-            <div class="column">
-         
-                     <a href="https://gtonnis.github.io/My-Book-List/"
-              target="_blank"
-              class="project project-tile">
+          
+         <div class="project">
+          <a href="https://gtonnis.github.io/My-Book-List/" target="_blank class="">
              
-              <img class="project-image" src="images/Screenshot-bookList.png" alt="project"/>
+            <img class="project-image" src="images/Screenshot-bookList.png" alt="project"/>
 
-              <p class="project-title">
-                <span class="code">&lt;</span>
-                My Book List Application 
-                <span class="code">&#47;&gt;</span>
-              </p>
-            </a> 
-                  </div>
-                  
-                  <div class="column">
-                   
-                    <a href="https://gtonnis.github.io/granny-s-kitchen/"
-              target="_blank"
-              class="project project-tile">
-              <img class="project-image"
-                src="images/grannysscrnshot.png"
-                alt="project"/>
-
-              <p class="project-title">
-                <span class="code">&lt;</span>
-                Recipe Search Application 
-                <span class="code">&#47;&gt;</span></p></a>
-                   </div>
-                  
-                                 
-          </div> 
-
-            <div class="row">
-              <div class="column">
-
-                <a href="https://gtonnis.github.io/Home-Inspections/"
-            target="_blank"
-            class="project project-tile">
-            <img class="project-image"
-              src="images/home-inspection-screen-shot.png"
-              alt="project"/>
-
-            <p class="project-title">
-              <span class="code">&lt;</span>
-              Home Inspector Website
-              <span class="code">&#47;&gt;</span>
-            </p>
-          </a>  
-                                </div>
-             
-             
-                  
-                   <div class="column">   
-                    <a href="https://gtonnis.github.io/How-to-Build-Computer/"
-           target="_blank"
-           class="project project-tile">
-           <img class="project-image"
-             src="images/build-pc.jpg"
-             alt="project"/>
-
-           <p class="project-title">
-             <span class="code">&lt;</span>
-             Build a Computer Website
-             <span class="code">&#47;&gt;</span>
-           </p>
-         </a>
-         </div>
+            <p> My Book List Application</p>
+            
+          </a> 
+        </div>    
                 
-               
+            <div class="project">
+              <a href="https://gtonnis.github.io/granny-s-kitchen/" target="_blank" class="">
+                <img class="project-image" src="images/grannysscrnshot.png" alt="project"/>
+  
+                <p>Recipe Search Application</p></a>
+            </div>  
+                   
+                   
+                   <div class="project">
+                    <a href="https://gtonnis.github.io/Home-Inspections/" target="_blank" class="">
+                      <img class="project-image" src="images/home-inspection-screen-shot.png" alt="project"/>
+          
+                      <p> Home Inspector Website</p></a>  
+                   </div>        
              
+             
+          <div class="project">
+            <a href="https://gtonnis.github.io/How-to-Build-Computer/" target="_blank" class="">
+              <img class="project-image" src="images/pc-build.png" alt="Build a Computer Website"/>
+   
+              <p>Build a Computer Website</p>
+            </a>
+          </div>       
+               
                   </div>
             </section>
 
         <!--    Contact section-->
             <section id="contact" class="contact-section">
-          <div class="contact-section-header container text-center">
+          <div class="contact-section-header">
             <h3 class="projects-section-header"><u>Let's work together</u></h3>
-            <img id="image" src="images/profile.jpg" alt="Greg Tonnis" class="img-fluid center m-3">
+            <img id="image" src="images/profile.jpg" alt="Greg Tonnis">
     
           </div>
-          <div class="contact-links container mb-5">
+
+          <div class="contact-links">
             
             <h5><u>Contact me</u></h5>
-            <a href="tel:513-442-8232" class="btn contact-details"><i class="fas fa-mobile-alt"></i><span style="color:black">Phone:</span> (513)442-8232</a> 
-            <a href="mailto:gtonnis811@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> <span style="color:black">Email:</span> gtonnis811@gmail.com</a> <br>
+            <a href="tel:513-442-8232" class="contact-details"><i class="fas fa-mobile-alt"></i><span>Phone:</span> (513)442-8232</a> 
+            <a href="mailto:gtonnis811@gmail.com" class="contact-details"><i class="fas fa-at"></i><span>Email:</span> gtonnis811@gmail.com</a> <br>
 
                 <h5> <u>See my projects</u> </h5>
-            <a id="profile-link" href="https://github.com/gtonnis?tab=repositories" target="_blank" class="btn contact-details"><i class="fab fa-github"></i><span style="color:black">GitHub:</span> https://github.com/gtonnis?tab=repositories</a>
+            <a id="profile-link" href="https://github.com/gtonnis?tab=repositories" target="_blank" class="contact-details"><i class="fab fa-github"></i><span>GitHub:</span> https://github.com/gtonnis?tab=repositories</a>
            
 
             <h5><u>Social Media</u></h5>
-            <a href="https://twitter.com/tonnis_greg" target="_blank" class="btn contact-details"><img><i class="fab fa-twitter"></i><span style="color:black">Twitter:</span> @tonnis_greg</a>
-             <a href="linkedin.com/in/greg-tonnis-6a71b851" target="_blank" class="btn contact-details"><img><i class="fab fa-linkedin"></i><span style="color:black">Linkedin:</span> linkedin.com/in/greg-tonnis-6a71b851</a>
+            <a href="https://twitter.com/tonnis_greg" target="_blank" class="contact-details"><img><i class="fab fa-twitter"></i><span>Twitter:</span> @tonnis_greg</a>
+             <a href="linkedin.com/in/greg-tonnis-6a71b851" target="_blank" class="contact-details"><img><i class="fab fa-linkedin"></i><span>Linkedin:</span> linkedin.com/in/greg-tonnis-6a71b851</a>
              
             <h5> <u>Resume</u> </h5>
-            <a href="https://drive.google.com/file/d/1a_f9ZTigbmVL09cAODRasVUE-o9aoLI7/view?usp=sharing" target="_blank" class="btn contact-details"><img><i class="fab fa-resume"></i>View Resume</a>
+            <a href="https://drive.google.com/file/d/1a_f9ZTigbmVL09cAODRasVUE-o9aoLI7/view?usp=sharing" target="_blank" class="contact-details"><img><i class="fab fa-resume"></i>View Resume</a>
               
            </div>
         </section>
 
-
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="script.js"> </script>
+       
          
          
         </body>
+        
         </html>
 
 
