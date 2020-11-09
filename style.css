@@ -1,93 +1,87 @@
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-       font-family: 'Times New Roman', Times, serif;
-        text-align: center;
-        background-color: #484848;
-        color: #E0E0E0;
+     font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      background-color: #484848;
+      color: #E0E0E0;
 }
 
- span {
-   color: silver;
-  
+span {
+ color: silver;
+
 }
 a{
-   color: silver;
-  
+ color: silver;
 }
 
 .navbar {
-  overflow: hidden;
- text-shadow: 1px 1px dimgrey;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  background-color: #404040;
+overflow: hidden;
+text-shadow: 1px 1px dimgrey;
+position: fixed;
+top: 0;
+width: 100%;
 }
 
 .navbar a {
-  float: left;
-  display: block;
-  
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  background-clip: text;
+float: left;
+display: block;
+
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+background-clip: text;
 }
 
 .navbar a:hover {
-  border-radius: 40%;
-  color: blue;
+border-radius: 40%;
+color: blue;
 }
-
-
 
 #home{
-  padding: 16px;
-  margin-top: 30px;
-   
+padding: 16px;
+margin-top: 30px;
+ 
 }
 
- a:hover {
-  color: blue;
-  
+a:hover {
+color: blue;
+
 }
 
 .projects-section{
- display: flex;
+display: flex;
 flex-wrap: wrap;
-   margin:auto;
-  justify-content: space-evenly;
+ margin:auto;
+justify-content: space-evenly;
 }
 
 .project{
-  flex: auto;
- align-self: center;
- padding: 50 px;
+flex: auto;
+align-self: center;
+padding: 50 px;
 }
 
 .project-image {
-    margin: 8px;
-    box-shadow: 2px 2px black;
-   max-width: 100%;
+  margin: 8px;
+  box-shadow: 2px 2px black;
+ max-width: 100%;
 }
 #image{
-  max-width: 40%;  
-  border-radius: 50%;
-  box-shadow: 1px 1px black;
+max-width: 40%;  
+border-radius: 50%;
+box-shadow: 1px 1px black;
 }
 .contact-details{
-  color: lightskyblue;
+color: lightskyblue;
 }
-
 
 .contact-links{
-    padding-bottom: 50px;
-    letter-spacing: 0.5px 
-   
+  padding-bottom: 50px;
+  letter-spacing: 0.5px 
+ 
 }
-
-
-
