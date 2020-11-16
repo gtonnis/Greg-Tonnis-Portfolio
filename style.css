@@ -3,9 +3,9 @@
 }
 
 body {
-     font-family: 'Times New Roman', Times, serif;
+     font-family: sans-serif;
       text-align: center;
-      background-color: #484848;
+      background-color: #101010;
       color: #E0E0E0;
 }
 
@@ -18,18 +18,18 @@ a{
 }
 
 .navbar {
-  background-color: #404040;
+  background-color: #282828; 
 overflow: hidden;
-text-shadow: 1px 1px dimgrey;
+opacity: 0.5;
 position: fixed;
 top: 0;
 width: 100%;
 }
 
 .navbar a {
+  opacity: 1;
 float: left;
 display: block;
-
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
@@ -39,12 +39,15 @@ background-clip: text;
 
 .navbar a:hover {
 border-radius: 40%;
-color: blue;
+color: white;
 }
 
 #home{
-padding: 16px;
-margin-top: 30px;
+  padding-top: 50px;
+}
+
+.content{
+  padding: 3px;
  
 }
 
@@ -68,13 +71,15 @@ padding: 50 px;
 
 .project-image {
   margin: 8px;
-  box-shadow: 2px 2px black;
+  box-shadow: 1px 2px 1px  #404040;
  max-width: 100%;
+ border-radius: 8px;
 }
+
 #image{
 max-width: 40%;  
 border-radius: 50%;
-box-shadow: 1px 1px black;
+box-shadow: 1px 2px 1px  #404040;
 }
 .contact-details{
 color: lightskyblue;
@@ -85,3 +90,10 @@ color: lightskyblue;
   letter-spacing: 0.5px 
  
 }
+
+.error{
+    padding:50px 0 10px 0;
+    margin: auto;
+}
+
+
