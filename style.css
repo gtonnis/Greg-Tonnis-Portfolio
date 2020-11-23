@@ -1,92 +1,128 @@
-*{
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<meta name="description" content="Portfolio web page for Web Developer Greg Tonnis">
+<meta name="keywords" content="Web Developer, Software Developer, javascript, html, css">
+<meta name="author" content="Greg Tonnis">
 
-body {
-     font-family: sans-serif;
-      text-align: center;
-      background-color: #101010;
-      color: #E0E0E0;
-}
+     <link rel="stylesheet" href="style.css">   
+     
 
-span {
- color: silver;
+     <title>www.gregtonnis.dev</title>
+</head>
+<body>
 
-}
-a{
- color: silver;
-}
+<div class="navbar" id="nav" >
+<a href="#home" >Home</a>
+<a  href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
 
 
-.navbar {
-  background-color: none; 
- opacity: 0.5;
-background: #282828;
-position: fixed;
-width: 100%;
-}
 
-.navbar a {
-    opacity: 1;
-  color: white;
-float: left;
-display: block;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
-background-clip: text;
-}
+<!--  Home -->
+<section id="home">
+<div class="content">
 
-.navbar a:hover {
+<h1>Hi, I'm Greg.</h1>
 
-color:deepskyblue;
-}
+ <p>A Web Developer, located in Cincinnati, Ohio.</p>
+ <p>I have worked in management for various companies in different roles, my real passion is Web Development, and Programming.</p> 
+ <p>I have learned HTML, CSS, and JavaScript through Free Code Camp.</p>
+ <p>Earning Certifications for Responsive Web Design, and JavaScript Algorithms, Data Structures.</p>
+ <p>I also enjoy creating art work, music, and teaching other's what I have learned.</p>
+</div>
+</section>
+      
 
-#home{
-  padding-top: 50px;
-}
-
-.content{
-  padding: 3px;
+<!--         Project section        -->
+<section id="projects">
  
-}
+<h2 class="projects-section-header"><u>Projects</u></h2> 
+<p>Here are two JavaScript applications, and two websites I have built.</p> <p>I also have more projects <a id="profile-link" href="https://github.com/gtonnis?tab=repositories" target="_blank" class="contact-details">GitHub Repository</a></p> 
+<div class="projects-section">
 
-a:hover {
-color: blue;
-}
 
-.projects-section{
-display: flex;
-flex-wrap: wrap;
- margin:auto;
-justify-content: space-evenly;
-}
+<div class="project">
+ <p>My Reading List Application</p>
+<a href="https://gtonnis.github.io/my-reading-list-v2/" target="_blank class="">
 
-.project{
-flex: auto;
-align-self: center;
-padding: 50 px;
-}
+<img class="project-image" src="images/my-reading-list.png" alt="project"/> 
 
-.project-image {
-  margin: 8px;
-  box-shadow: 1px 2px 1px  #404040;
- max-width: 100%;
- border-radius: 8px;
-}
+<p>Click for demo of My Reading List</p>
 
-#image{
-max-width: 40%;  
-border-radius: 50%;
-box-shadow: 1px 2px 1px  #404040;
-}
-.contact-details{
-color: lightskyblue;
-}
+</a> 
+<p>Save book title, author, and year to local storage. <br>Mark a book as "read", or Delete book from list. <br>Sort the book list by title, author, or year. <br>Shows alerts for adding, removing books, or not entering all fields. </p>
+</div>    
 
-.contact-links{
-  padding-bottom: 50px;
-  letter-spacing: 0.5px 
- 
-}
+<div class="project">
+ <p>Kitchen & Bar Recipe Search</p>
+<a href="https://gtonnis.github.io/Kitchen-and-Bar-App/" target="_blank" class="">
+<img class="project-image" src="images/kitchen-bar.png" alt="project"/> 
+
+<p>Click for demo of Recipe Search Application</p></a>
+<p>Uses an API to search, returns 20 food or drink recipes with calorie, diet, and health information. <br>Viewing recipe opens new window with recipe.</p>
+</div>  
+   
+   
+   <div class="project">
+     <p>Home Inspector Website</p>
+    <a href="https://gtonnis.github.io/Home-Inspections/" target="_blank" class="">
+      <img class="project-image" src="images/home-inspector.png" alt="project"/>
+
+      <p>Click to view Home Inspector Website</p></a>  
+   </div>        
+
+
+<div class="project">
+  <p>Build a Computer Website </p>
+<a href="https://gtonnis.github.io/How-to-Build-Computer/" target="_blank" class="">
+<img class="project-image" src="images/pc-build.png" alt="Build a Computer Website"/>
+
+<p>Click to view Build a Computer Website</p>
+</a>
+</div>       
+
+  </div>
+</section>
+
+<!--    Contact section-->
+<section id="contact" class="contact-section">
+<div class="contact-section-header">
+<h3 class="projects-section-header"><u>Let's work together</u></h3>
+<img id="image" src="images/profile.jpg" alt="Greg Tonnis">
+
+</div>
+
+<div class="contact-links">
+
+<h5><u>Contact me</u></h5>
+<a href="tel:513-442-8232" class="contact-details"><i class="fas fa-mobile-alt"></i><span>Phone:</span> (513)442-8232</a> 
+<a href="mailto:gtonnis811@gmail.com" class="contact-details"><i class="fas fa-at"></i><span>Email:</span> gtonnis811@gmail.com</a> <br>
+
+<h5> <u>See my projects</u> </h5>
+<a id="profile-link" href="https://github.com/gtonnis?tab=repositories" target="_blank" class="contact-details"><i class="fab fa-github"></i><span>GitHub:</span> https://github.com/gtonnis?tab=repositories</a>
+
+
+<h5><u>Social Media</u></h5>
+<a href="https://twitter.com/tonnis_greg" target="_blank" class="contact-details"><img><i class="fab fa-twitter"></i><span>Twitter:</span> @tonnis_greg</a>
+<a href="linkedin.com/in/greg-tonnis-6a71b851" target="_blank" class="contact-details"><img><i class="fab fa-linkedin"></i><span>Linkedin:</span> linkedin.com/in/greg-tonnis-6a71b851</a>
+
+<h5> <u>Resume</u> </h5>
+<a href="https://drive.google.com/file/d/1RGaEEf75Iai45hf7Ugo8PK8ixIMPKx8f/view?usp=sharing" target="_blank" class="contact-details"><img><i class="fab fa-resume"></i>View Resume</a>
+
+</div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
