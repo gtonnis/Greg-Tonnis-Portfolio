@@ -17,17 +17,18 @@ a{
  color: silver;
 }
 
+
 .navbar {
-  background-color: #282828; 
-overflow: hidden;
-opacity: 0.5;
+  background-color: none; 
+ opacity: 0.5;
+background: #282828;
 position: fixed;
-top: 0;
 width: 100%;
 }
 
 .navbar a {
-  opacity: 1;
+    opacity: 1;
+  color: white;
 float: left;
 display: block;
 text-align: center;
@@ -38,8 +39,8 @@ background-clip: text;
 }
 
 .navbar a:hover {
-border-radius: 40%;
-color: white;
+
+color:deepskyblue;
 }
 
 #home{
@@ -53,7 +54,6 @@ color: white;
 
 a:hover {
 color: blue;
-
 }
 
 .projects-section{
@@ -90,10 +90,3 @@ color: lightskyblue;
   letter-spacing: 0.5px 
  
 }
-
-.error{
-    padding:50px 0 10px 0;
-    margin: auto;
-}
-
-
